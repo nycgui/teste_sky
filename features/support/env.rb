@@ -2,8 +2,9 @@ require 'capybara/cucumber'
 require 'selenium-webdriver'
 require 'site_prism'
 require 'pry'
+require 'rspec'
 
-require 'httparty'
+require_relative 'page_objects'
 
 World(PageObjects)
 

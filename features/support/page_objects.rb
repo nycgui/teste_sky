@@ -4,4 +4,8 @@ Dir[File.join(File.dirname(__FILE__),
 
 module PageObjects
 
+  def canais
+    Canais.new
+  end
+
 end
